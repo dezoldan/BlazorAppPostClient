@@ -14,7 +14,7 @@ namespace BlazorApp1.Client.ServicesClient
             _httpClient = httpClient;
         }
 
-        // Vídeo #20. Recuperar uma lista de alunos.
+        // Vídeo #20. Recupera uma lista de alunos.
         public async Task<IEnumerable<AlunosTeste>> GetAlunos1()
         {
             using HttpResponseMessage? httpResponse =
